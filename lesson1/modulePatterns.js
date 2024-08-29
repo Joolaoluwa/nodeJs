@@ -1,2 +1,3 @@
 let myVar = require('./modules-require');
-classes(arr);
+myVar.classes;
+myVar.lists;

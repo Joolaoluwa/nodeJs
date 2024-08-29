@@ -7,4 +7,22 @@ function classes()
         console.log(n + " is in my class");
     }
 }
-module.export = classes();
+let favourite = ["food", 'football', 'pretty'];
+function list()
+{
+    for (let fav of favourite)
+    {
+        console.log(`I love ${fav}`);
+    }
+}
+// module.exports.classes = classes();
+// module.exports.lists = list();
+
+
+// OR
+ module.exports =  
+{      
+    classes: classes(),
+    lists: list()
+}
+ 
