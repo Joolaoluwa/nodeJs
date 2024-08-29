@@ -1,0 +1,12 @@
+Backend development is a practice of creating an API, its like a foundation that other platforms on.
+
+This is a process in which the user safely interacts with data safely
+
+Backend consists of a server side language such as
+node js
+java
+
+and a database language such as sql
+backend is used to initiate logic
+
+An API is used to connect apps together, thinik of a puzzle and the parts where they connect as the API
