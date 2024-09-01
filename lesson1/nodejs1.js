@@ -6,7 +6,7 @@ let timer = 0
  * setInterval, and clearInterval to do a particular thing for a
  * given amount of time and to write code that works according to a particular timing
  * 
- * Prohramming itself is a tool, forget code sometimes and give more time to thought
+ * Programming itself is a tool, forget code sometimes and give more time to thought
  * */ 
 let timing = setInterval(() => {
     timer += 2
