@@ -15,13 +15,13 @@ var fs = require('fs');
 fs.readFile("./Backend_development.txt", 'utf8', function(err,data)
 {
     if(err)
-        console.error("Error reading file", err);
+        console.error("Error reading file: ", err);
     console.log(data);
     
     fs.writeFile('./me.txt', data, (err) =>
     {
         if(err)
-            console.error("Error writing to file", err);
+            console.error("Error writing to file: ", err);
         return;
     });
     console.log('File written to successfully');
