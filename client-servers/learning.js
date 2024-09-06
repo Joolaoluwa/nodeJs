@@ -1,5 +1,5 @@
-let http = require('http');
-let fs = require('fs');
+// let http = require('http');
+// let fs = require('fs');
 // let joshies = http.createServer((req,res) =>
 // {
 //     console.log("The mandem waitin for incoming messages from: ", req.url);
@@ -8,6 +8,11 @@ let fs = require('fs');
 //     readStream.pipe(res);
 // })
 
-// Serving html
-joshies.listen(5000, '127.0.0.1');
-console.log("We are listening for incoming messages")
+// joshies.listen(5000, '127.0.0.1');
+// console.log("We are listening for incoming messages")
+// const {reverse} = require('./main');
+// let arg = process.argv[2];
+// console.log(reverse(arg));
+
+const {parse} = require('ini');
+console.log(parse("x = 1\n y = 2"));

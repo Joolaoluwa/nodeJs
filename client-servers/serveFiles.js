@@ -28,3 +28,4 @@ let joshies = http.createServer((req,res) =>
 })
 joshies.listen(4000, '127.0.0.1');
 console.log('Now listening on port 4000');
+console.log(process.argv);
