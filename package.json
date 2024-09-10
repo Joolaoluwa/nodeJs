@@ -1,0 +1,28 @@
+{
+  "name": "joshies",
+  "version": "1.0.0",
+  "description": "all fashion store",
+  "main": "onX.js",
+  "scripts": {
+    "test": "wo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joolaoluwa/nodeJs.git"
+  },
+  "keywords": [
+    "fashion",
+    "luxury",
+    "aesthetics"
+  ],
+  "author": "Joshua Olusola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joolaoluwa/nodeJs/issues"
+  },
+  "homepage": "https://github.com/Joolaoluwa/nodeJs#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
